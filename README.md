@@ -1,3 +1,11 @@
+##### Preview and link
+https://neon-lamington-b2088c.netlify.app
+![Cattura](https://github.com/SuperBona/Temp-contentful-app/assets/122936032/32c38463-eeeb-4339-b877-dc54013aa5e1)
+![Cattura](https://github.com/SuperBona/Temp-contentful-app/assets/122936032/b89a4c05-4905-448e-a0ab-174740e7ffbb)
+
+
+
+
 ## Figma URL
 
 [Contentful](https://www.figma.com/file/XtVr3JRCGWyZESYxd9EhZK/Contentful?node-id=0%3A1&t=SNnU6FgNUQXktIFb-1)
@@ -56,7 +64,7 @@ Access Token -
 import { createClient } from 'contentful'
 
 const client = createClient({
-  space: 'qz00uzgg3leh',
+  space: '....',
   environment: 'master', // defaults to 'master' if not set
   accessToken: import.meta.env.VITE_API_KEY,
 })
